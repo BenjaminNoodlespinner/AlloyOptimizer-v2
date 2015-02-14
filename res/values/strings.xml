@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alloy Optimizer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_help">Help</string>
+    <string name="vessel">Vessel</string>
+    <string name="crucible">Crucible</string>
+    <string name="target_metal">Target Metal</string>
+    <string name="ingots">Ingots</string>
+    <string name="res_dialog_title">Resources available</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="res_dialog_clear">Clear</string>
+    <string name="amount_material">Amount</string>
+    <string name="optimize">Optimize</string>
+    <string name="show_amounts">Amounts</string>
+    <string name="show_icons">Amounts</string>
+    <string name="unimplemented">Coming Soon</string>
+    <string name="preffered_ratios">Preffered ratios</string>
+    <string name="oreimage">oreImage</string>
+    <string name="calc_stacks">Stacks</string>
+    <string name="calc_rest">Rest</string>
+    <string name="pref_ratios">Ratios</string>
+    <string name="ratio">Ratio</string>
+    <string name="wrong_ratio_dialog_name">Incorrect ratio</string>
+    <string name="wrong_ingot_dialog_name">Incorrect ingot amount</string>
+    <string name="wrong_procentage_dialog_name">Incorrect ratio</string>
+    <string name="result">Result</string>
+    <string name="opt_failed">Optimization Failed!</string>
+    <string name="help">Help</string>
+
+    <string-array name="alloys_vessel">
+        <item>Bronze</item>
+        <item>Bismuth Bronze</item>
+        <item>Black Bronze</item>
+        <item>Brass</item>
+        <item>Rose Gold</item>
+        <item>Sterling Silver</item>
+    </string-array>
+    <string-array name="alloys_crucible">
+        <item>Bronze</item>
+        <item>Bismuth Bronze</item>
+        <item>Black Bronze</item>
+        <item>Brass</item>
+        <item>Rose Gold</item>
+        <item>Sterling Silver</item>
+        <item>Black Steel</item>
+        <item>Blue Steel</item>
+        <item>Red Steel</item>
+    </string-array>
+    
+    <string name="general_description">
+        This app is made to help calculate optimal solutions for smelting metals in a mod for Minecraft called TerraFirmaCraft.
+        You simply type in what resources you have available, and press a button, and all the number crunching is done automatically for you.
+    </string>
+    <string name="general_layout">
+        The app is divided into 2 parts - Crucible and Vessel mode. The Vessel mode is currently unavailable due to some difficulties, but
+        will be coming out soon.
+    </string>
+    <string name="ingot_alloy_description">
+        In this part of the app, you choose how many Ingots of an alloy you would like to make. Simply type the amount into the field. Next to the
+        ingot input field, there is a drop-down menu that allows you to pick which alloy to make. You simply click it and choose desired alloy.
+        Keep in mind that some alloys are only available in the crucible, hence they\'re only displayed in the crucible mode.
+    </string>
+    <string name="material_description">
+        This part allows you to enter how much of what resource you have. Simply click on a picture of the resource and a window will come up.
+        Inside that window you enter the amount. You can also spare yourself some counting by giving it how many stacks of ore you have instead of
+        giving a precise amount.
+    </string>
+    <string name="ratios_description">
+        This part takes in the desired ratios of the alloy. It also shows the max and min allowed ratio for each material. It\'s not possible
+        to enter decimal numbers because in the future the app will adjust the ratios if the current ratios can\'t be satisfied.
+    </string>
+    <string name="amount_optimze_description">
+        The Amounts button turns on/off the ability to see the amount of the material you typed in. Finally the Optimize button, calculates the 
+        result and displays it in a presentable way. Keep in mind that it isn\'t always possible to get such a result. The app will try its best
+        to tell you what\'s wrong.
+    </string>
+    <string name="alpha_description">
+        This app is still in it\'s alpha mode and it contains bugs. Please repport them when they\'re encountered and they will be fixed as
+        soon as possible.
+    </string>
+
+</resources>
